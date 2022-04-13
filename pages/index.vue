@@ -6,7 +6,7 @@
 
 <script setup>
   definePageMeta({
-    layout: "index",
+    layout: "top-page",
   });
 
 </script>
