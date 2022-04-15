@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import { Disclosure} from '@headlessui/vue'
+import {Disclosure} from '@headlessui/vue'
 
 export default {
   components: {
