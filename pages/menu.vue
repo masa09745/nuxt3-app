@@ -1,6 +1,9 @@
 <template>
-  <div>
-    page/menu.vue
+  <div class="flex flex-grow flex-wrap items-center mx-auto">
+    <card />
+    <card />
+    <card />
+    <card />
   </div>
 </template>
 
