@@ -27,7 +27,7 @@
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
   definePageMeta({
     layout: "top-page",
   });
