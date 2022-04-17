@@ -10,11 +10,11 @@
           <div class="grid grid-cols-12 gap-7">
             <div class="col-span-full">
               <label for="employee-number" class="block text-md font-medium text-gray-700">社員番号</label>
-              <input type="text" name="employee-number" id="employee" class="mt-1 block form-control px-3 py-1.5 w-full shadow-sm rounded-md border border-solid border-gray-300" />
+              <input type="text" autocomplete="off" name="employee-number" id="employee" class="mt-1 block form-control px-3 py-1.5 w-full shadow-sm rounded-md border border-solid border-gray-300" />
             </div>
             <div class="col-span-full">
               <label for="password" class="block text-md font-medium text-gray-700">パスワード</label>
-              <input type="password" name="email-address" id="email-address" class="mt-1 block form-control px-3 py-1.5 w-full shadow-sm rounded-md border border-solid border-gray-300" />
+              <input type="password" autocomplete="off" name="password" id="password" class="mt-1 block form-control px-3 py-1.5 w-full shadow-sm rounded-md border border-solid border-gray-300"  />
             </div>
           </div>
         </div>

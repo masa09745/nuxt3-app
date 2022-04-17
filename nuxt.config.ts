@@ -6,5 +6,10 @@ export default defineNuxtConfig({
 
   typescript: {
     strict: true
-  }
+  },
+
+  publicRuntimeConfig: {
+    appName: process.env.APP_NAME
+  },
+  
 })

@@ -4,7 +4,7 @@
       <div class="relative flex items-center justify-between h-16">
         <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
           <div class="flex-shrink-0 flex items-center text-white text-2xl">
-            Airline Management System
+            {{ appName }}
           </div>
         </div>
       </div>
@@ -13,6 +13,7 @@
 </template>
 
 <script setup lang="ts">
-
+  const config = useRuntimeConfig();
+  const appName = config.appName;
 </script>
 
