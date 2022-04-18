@@ -1,7 +1,6 @@
 <template>
-  <div>
+  <div class="flex flex-col min-h-screen">
     <MainHeader />
-    ログイン前はここ
     <slot />
     <MainFooter />
   </div>
