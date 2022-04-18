@@ -4,6 +4,12 @@ import { defineNuxtConfig } from 'nuxt3'
 export default defineNuxtConfig({
   buildModules: ['@nuxtjs/tailwindcss'],
 
+  components: {
+    dirs: [
+      '~/components',
+    ]
+  },
+
   typescript: {
     strict: true
   },
@@ -11,5 +17,5 @@ export default defineNuxtConfig({
   publicRuntimeConfig: {
     appName: process.env.APP_NAME
   },
-  
+
 })
